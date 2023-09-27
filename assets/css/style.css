@@ -76,6 +76,7 @@ ul.pricinglist li strong {
     font-weight: bold;
 }
 
+/* _____ Form _____ */
 
 input[type=text], select, textarea {
     width: 100%;
