@@ -39,6 +39,10 @@ a {
     font-weight: bold;
 }
 
+a:hover {
+    color: orange;
+}
+
 /* _____ Divs _____ */
 
 .content {
@@ -60,22 +64,6 @@ a {
     max-width: 800px;
 }
 
-/* _____ Pricing Menu _____ */
-
-ul.pricinglist {
-    list-style: none;
-    padding: 0;
-}
-
-ul.pricinglist li {
-    margin-bottom: 10px;
-    display: block;
-}
-
-ul.pricinglist li strong {
-    font-weight: bold;
-}
-
 /* _____ Form _____ */
 
 input[type=text], select, textarea {
@@ -89,6 +77,17 @@ input[type=text], select, textarea {
     resize: vertical;
   }
   
+  input[type=email] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+
   input[type=submit] {
     background-color: #04AA6D;
     color: white;
@@ -98,16 +97,24 @@ input[type=text], select, textarea {
     cursor: pointer;
   }
   
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-  
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     margin: 20px auto 70px;
   }
+
+  .submit-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #667785;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
 
 /* _____ Footer _____ */
 
