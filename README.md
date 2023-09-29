@@ -22,6 +22,12 @@ This is the homepage for a landscaping company.
 
 ------
 
+## Responsive Design
+
+<img width="335" alt="Screenshot 2023-09-29 at 13 23 03" src="https://github.com/tomcollins2110/ProjectOneSep/assets/104827144/fec15d90-f010-4237-a620-effb1a0b19a1">
+
+------
+
 ## Bugs
 
 ------
